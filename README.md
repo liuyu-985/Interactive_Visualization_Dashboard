@@ -1,8 +1,13 @@
 # Exploring Medicare Hospital Spending and Quality in the Upper Midwest
-**Interactive Visualization Dashboard (Observable + D3.js)**
+**Interactive Visualization Dashboard (Tableau)/(Observable + D3.js)**
+
+Live dashboard (Tableau):
+https://public.tableau.com/views/MedicareSpendingvsHospitalQualityUpperMidwest/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 Live dashboard (Observable):
 https://observablehq.com/d/8428ef9bfbf826d9
+
+![Tableau Dashboard](assets/Screenshot_Tableau.png)
 
 ![Dashboard screenshot](assets/Screenshot.png)
 
@@ -34,7 +39,7 @@ The pipeline uses Python (`pandas`, `geopandas`) and includes:
 - aggregating MS-DRG discharges (top-5 shares) and computing DRG concentration metrics (HHI).
 
 ## Dashboard design (4 linked views)
-Implemented in Observable (D3.js + Inputs) as four coordinated panels:
+Implemented in Observable (Tableau/D3.js + Inputs) as four coordinated panels:
 1. **Choropleth map**: top counties by discharges; color encodes `z_spend`
 2. **Hospital scatterplot**: hospital star rating vs market spend; size = beds; color = ownership
 3. **Top-5 DRG bar chart**: hospital case-mix drilldown (DRG discharge share)
