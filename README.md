@@ -4,10 +4,11 @@
 Live dashboard (Tableau):
 https://public.tableau.com/views/MedicareSpendingvsHospitalQualityUpperMidwest/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
+![Tableau Dashboard](assets/Screenshot_Tableau.png)
+
+
 Live dashboard (Observable):
 https://observablehq.com/d/8428ef9bfbf826d9
-
-![Tableau Dashboard](assets/Screenshot_Tableau.png)
 
 ![Dashboard screenshot](assets/Screenshot.png)
 
